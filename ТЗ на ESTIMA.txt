@@ -1,0 +1,64 @@
+06.102021/  ТЗ по https://msk.estima.ru/
+
+1. Грузить по ссылкам 
+   https://msk.estima.ru/catalog/keramogranit/
+   https://msk.estima.ru/catalog/dekorativnye-izdeliya/
+
+   1. С превью товара получить параметры:
+
+      -Тип материала, - Material_type
+      -Ссылку на карточку товара, - Link_to_product_card
+	  -если есть инфа на картинки типа "Новинка", "Лучшая цена" и т.д. то ее тоже нужно получить. 
+	  Прилагаю скрин prev_tovara.jpg - sale
+	  
+   2. С карточки товара получить данные: 
+
+      -Название - name
+	  -Ссылки на Фото (все которые будут). Обратить внимание на размер, есть 62*62 пикселя их не нужно брать, большие !!! - Links_to_Photos
+	  -Цена:  за м² - Price_m2
+
+      -Коллекция: - Collection
+      -Стиль: - Style
+	  -Тип поверхности: - Surface_type
+	  -Вариативность цвета: - color_variability
+	  -Кол-во в упаковке, шт: - Qty_in_a_package
+	  -Размер, см: - Size_cm
+      -Количество кв.м в упаковке: - amount_km_m_in_a_package
+      -Тип товара: - Item_type
+      -особенности: - peculiarities
+      -Цвет: - color
+      -Вид изделия: - Product_type
+      -Применение: - application
+      -Износостойкость: - Wear_resistance
+      -Особенности производства: - Features_of_production
+      -Ректификация: - Rectification
+      -Фактура: - Texture
+      -Артикул: - vendor_code
+      -Цвет массы: - Mass_color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  Скрин прилагаю kartochka_tovara.jpg 
+	  
+   Могут быть дубли. В разделе "Керамогранит" https://msk.estima.ru/catalog/keramogranit/ есть декорные элементы которые могут дублироваться в "Декоративная плитка" https://msk.estima.ru/catalog/dekorativnye-izdeliya/.
+   Пусть индефицирует по "Название" и "Артикул"
